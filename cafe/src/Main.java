@@ -1,4 +1,4 @@
-// سلام! آدرس فولدر assets تون رو توی خط 173 بذارین
+// put your assets folder path inside filePath variable at line 174.
 
 import javax.swing.*;
 import java.awt.*;
@@ -171,7 +171,7 @@ public class Main {
     public static void main(String[] args) {
         int[] itemAmount = new int[9];
         JButton[][] cartBtns = new JButton[9][2];
-        String filePath = "E:\\java\\tamrin2\\manuela_de_la_cafeiano\\cafe\\assets"; // آدرس فولدر assets تون رو اینجا بذارین
+        String filePath = ""; // put your assets folder path here.
         File yekanFontFile = new File(filePath + "/Yekan.ttf");
         Font yekanFont36;
         try {
